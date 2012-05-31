@@ -78,12 +78,6 @@
     self.scrollView.bounces = YES;
     self.scrollView.alwaysBounceVertical = YES;
     self.scrollView.delegate = self;
-//<<<<<<< HEAD
-    NSLog(@"i'm a master");
-    NSLog(@"i'm a master");
-//=======
-    NSLog(@"");
-//>>>>>>> another_branch_test
     
     [self.view addSubview:self.scrollView];
     
@@ -132,7 +126,7 @@
     for ( MHFoldingLayer *layer in self.foldingLayers )
         if ( CGRectContainsPoint(layer.frame, point ) )
             return layer;
-    NSLog(@"i'm dealloc master");
+
     return nil;
 }
 
