@@ -128,7 +128,7 @@
     for ( MHFoldingLayer *layer in self.foldingLayers )
         if ( CGRectContainsPoint(layer.frame, point ) )
             return layer;
-    
+    NSLog(@"i'm dealloc master");
     return nil;
 }
 
