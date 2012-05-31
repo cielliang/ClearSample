@@ -78,6 +78,7 @@
     self.scrollView.bounces = YES;
     self.scrollView.alwaysBounceVertical = YES;
     self.scrollView.delegate = self;
+    NSLog(@"i'm a master");
     
     [self.view addSubview:self.scrollView];
     
